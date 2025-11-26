@@ -1,0 +1,56 @@
+{
+  "name": "safepaste",
+  "displayName": "SafePaste - Zero-Trust AI Privacy",
+  "description": "Keep secrets on your machine. Sanitize automatically, restore instantly. Works with any AI assistant.",
+  "version": "0.1.0",
+  "publisher": "Lucas Giovanella",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasgiovanella/safepaste.git"
+  },
+  "keywords": [ 
+    "chatgpt",
+    "claude",
+    "ai",
+    "security",
+    "privacy",
+    "secrets",
+    "sanitize",
+    "copilot",
+    "api-keys",
+    "zero-trust"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [ 
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:safepaste.sanitizeCopy",
+    "onCommand:safepaste.restorePaste"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "safepaste.sanitizeCopy",
+        "title": "SafePaste: Sanitize & Copy"
+      },
+      {
+        "command": "safepaste.restorePaste",
+        "title": "SafePaste: Paste & Restore"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "18.x",
+    "typescript": "^5.1.3"
+  }
+}
