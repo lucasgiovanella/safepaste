@@ -1,5 +1,7 @@
 # SafePaste 🔒
 
+![SafePaste Logo](icon/logo.png)
+
 **Zero-Trust AI Privacy for Developers**
 
 Stop leaking secrets to AI assistants. SafePaste automatically sanitizes sensitive data before you copy code, then restores it when you paste back. Your secrets never leave your machine.

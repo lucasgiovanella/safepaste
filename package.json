@@ -3,11 +3,12 @@
   "displayName": "SafePaste - Zero-Trust AI Privacy",
   "description": "Keep secrets on your machine. Sanitize automatically, restore instantly. Works with any AI assistant.",
   "version": "0.1.0",
-  "publisher": "Lucas Giovanella",
+  "publisher": "lucasgiovanella",
   "repository": {
     "type": "git",
     "url": "https://github.com/lucasgiovanella/safepaste"
   },
+  "icon": "./icon/logo.png",
   "keywords": [ 
     "chatgpt",
     "claude",
